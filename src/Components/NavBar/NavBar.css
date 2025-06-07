@@ -8,11 +8,11 @@ nav{
     z-index: 10;
 }
 .nav-left .menu-icon {
-    width: 22px;
+    width: 20px;
     margin-right: 25px;
 }
 .nav-left .logo{
-    width:130px;
+    width:100px;
 
 }
 .nav-middle .search-box{
@@ -33,10 +33,10 @@ nav{
     cursor: pointer;
 }
 .nav-right img{
-    width: 50px;
+    width: 25px;
     margin-right: 25px;
 }
 .nav-right .user-icon{
-    width: 50px;
+    width: 20px;
     border-radius: 50%;
 }

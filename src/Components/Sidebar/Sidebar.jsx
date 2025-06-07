@@ -15,9 +15,9 @@ import megan from '../../assets/megan.png';
 import cameron from '../../assets/cameron.png';
 import tom from '../../assets/tom.png';
 
-const Sidebar = () => {
+const Sidebar = ({sidebar}) => {
   return (
-    <div className='sidebar'>
+    <div className={`sidebar ${sidebar ? "" : "small-sidebar"}`}>
         <div className="shortcut-links">
             <div className="side-links">
                 <img src={home} alt="" /><p>Home</p>
@@ -46,25 +46,37 @@ const Sidebar = () => {
             <div className="side-links">
                 <img src={blogs} alt="" /><p>Blogs</p>
             </div>
+            <hr/>     
+        </div>
+        <div className="subscribed-list">
+            <h3>Subscribed</h3>
             <div className="side-links">
-                <img src={jack} alt="" /><p>Jack</p>
-            </div>
-            <div className="side-links">
-                <img src={simon} alt="" /><p>Simon</p>
-            </div>
-            <div className="side-links">
-                <img src={megan} alt="" /><p>Megan</p>
-            </div>
-            <div className="side-links">
-                <img src={cameron} alt="" /><p>Cameron</p>
+              <img src={jack} alt="" /><p>PewDiePie</p> 
             </div>
         </div>
-        <div className="side-links">
-                <img src={tom} alt="" /><p>Tom</p>
+        <div className="subscribed-list">
+            <div className="side-links">
+              <img src={simon} alt="" /><p>MrBeast</p> 
             </div>
+        </div>
+        <div className="subscribed-list">
+            <div className="side-links">
+              <img src={tom} alt="" /><p>Justin Beiber</p> 
+            </div>
+        </div>
+        <div className="subscribed-list">
+            <div className="side-links">
+              <img src={megan} alt="" /><p>5-minute Crafts</p> 
+            </div>
+        </div>
+        <div className="subscribed-list">
+            <div className="side-links">
+              <img src={cameron} alt="" /><p>Nas Daily</p> 
+            </div>
+        </div>
       
     </div>
   )
 }
 
-export default Sidebar
+export default Sidebar;
