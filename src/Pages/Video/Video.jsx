@@ -1,8 +1,10 @@
 import React from 'react'
+import PlayVideo from '../../Components/Play Video/PlayVideo'
 
 const Video = () => {
   return (
-    <div>
+    <div className='play-container'>
+      <PlayVideo/>
       
     </div>
   )
