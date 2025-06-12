@@ -1,0 +1,30 @@
+.play-video{
+    flex-basis: 70%;
+}
+.play-video video {
+    width: 100%;
+    
+}
+.play-video h3{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.play-videoinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.play-videoinfo img{
+    width: 20px;
+    margin-right: 8px;
+}
+.play-videoinfo span{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}

@@ -13,15 +13,17 @@ const PlayVideo = () => {
     <div className='play-video'>
       <video src={video1} controls autoPlay muted></video>
       <h3>Best Youtube Chanel To learn Web Development</h3>
-       <div className="play-video-info">
+       <div className="play-videoinfo">
          <p>153334 views &bull; 2 days ago</p>
-       </div>
-        <div>
+          <div>
            <span><img src={like} alt="" />3450</span>
            <span><img src={dislike} alt="" />34</span>
            <span><img src={share} alt="" />Share</span>
            <span><img src={save} alt="" />Save</span>
         </div>
+       
+       </div>
+        
         <hr/>
         <div className="publisher">
           <img src={jack} alt="" />
@@ -35,6 +37,43 @@ const PlayVideo = () => {
           <p>Chanel that makes learning Easy</p>
           <p>Subsribe Obizee to Watch More Tutorials on Web Development</p>
           <hr/>
+          <h4>150 Comments</h4>
+          <div className="comment">
+            <img src={user_profile} alt="" />
+            <div>
+              <h3>Omondi Wanjiru <span>1 day ago</span></h3>
+              <p>A great channel for learning coding tutorials </p>
+              <div className="comment-action">
+                <img src={like} alt="" />
+                <span>233</span>
+                <img src={dislike} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="comment">
+            <img src={user_profile} alt="" />
+            <div>
+              <h3>Omondi Wanjiru <span>1 day ago</span></h3>
+              <p>A great channel for learning coding tutorials </p>
+              <div className="comment-action">
+                <img src={like} alt="" />
+                <span>233</span>
+                <img src={dislike} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="comment">
+            <img src={user_profile} alt="" />
+            <div>
+              <h3>Omondi Wanjiru <span>1 day ago</span></h3>
+              <p>A great channel for learning coding tutorials </p>
+              <div className="comment-action">
+                <img src={like} alt="" />
+                <span>233</span>
+                <img src={dislike} alt="" />
+              </div>
+            </div>
+          </div>
           
         </div>
     </div>
