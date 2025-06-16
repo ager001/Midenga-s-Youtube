@@ -15,3 +15,10 @@
     flex-basis: 39%;
     width: 50%;
 }
+.vid-info{
+    flex-basis: 50%;
+}
+.vid-info h4{
+    font-size: 14px;
+    margin-bottom:5px;
+}
